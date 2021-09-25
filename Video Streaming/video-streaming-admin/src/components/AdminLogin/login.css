@@ -1,0 +1,20 @@
+.login{
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+
+.textfield{
+    padding:5px
+}
+
+.label{
+    padding:5px
+}
+
+.button{
+    justify-content: space-around;
+    display: flex;
+}

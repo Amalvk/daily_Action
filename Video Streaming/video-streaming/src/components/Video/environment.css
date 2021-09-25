@@ -1,0 +1,17 @@
+.playvideo{
+    flex: 4;
+    margin:130px 140px;
+}
+.likeButton{
+    margin-left: 20px;
+}
+.description{
+    font-size: bold;
+}
+.viewLike{
+    padding-top:10px ;
+}
+
+.dislikeButton{
+    padding: 20px;
+}

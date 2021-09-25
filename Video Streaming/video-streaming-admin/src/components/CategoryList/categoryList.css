@@ -1,0 +1,42 @@
+.categoryList{
+    flex: 4;
+    margin:0px 30px;
+    width: 200%;
+    height:80vh;
+    padding: 20px;
+    box-shadow: 6px -5px 20px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px -5px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px -5px 20px -10px rgba(0,0,0,0.75);  
+    
+}
+.categoryListEdit{
+ 
+    
+    cursor: pointer;
+    position:relative;
+   
+    padding: 1px 2px !important;
+    background-color: #3bb077 !important;
+    border-radius: 10px !important;
+    color: white !important;
+    border:none ;
+    font-size: 12px !important;
+    margin-bottom: 5px ! important;
+
+    
+}
+.userListDelete{
+    color: red;
+   
+
+}
+.deleteButton{
+    cursor: pointer;
+    border:none ;
+    /* margin: auto !important; */
+    margin-bottom: 5px ! important;
+    font-size: 12px !important;
+    cursor: pointer !important;
+    position:relative;
+    
+}
