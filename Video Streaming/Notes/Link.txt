@@ -1,0 +1,7 @@
+open on chrome
+
+
+https://wireframe.cc/pro/pp/3ac28e0f0460063 --- Wireframe
+
+
+https://docs.google.com/document/d/1MusgwEcWMgqWiveMG_1yVB1hP-R7DSnVSx7yb96gW8w/edit?usp=sharing --- SRS
