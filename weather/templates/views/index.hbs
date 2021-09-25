@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <h4>Use this site to get your weather!</h4>
+        <form>
+            <input placeholder="Location">
+             <button > Search </button>
+        </form>
+        <P id="message-1"> </P>
+        <P id="message-2"> </P>
+        <P id="message-3"> </P>
+        <P id="message-4"> </P>
+        
+    
+    </div>
+
+    {{>footer}}
+    <script src="/js/app.js"></script>
+    {{!-- the script file run first so the form & addEventListener can not be run inside js/app.js 
+    so the header file codded bellow--}}
+</body>
+
+</html>
