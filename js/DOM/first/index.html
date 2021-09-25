@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href='style.css'/>
+    <title>DOM</title>
+
+</head>
+<body>
+
+<!-- bootstrap -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="/" id="navbar__logo">NEXT</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/tech.html" class="navbar__links">Tech</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/product.html" class="navbar__links">Product</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="/product.html" class="button">SignUp</a>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
+
+
+
+
+<!-- Name Change -->
+
+<div class="container">
+        <input type="text" id="myText" value="Name">
+
+         <button   class="btn btn-primary" onclick="myFunction()">Try it</button>
+
+        
+<!-- value cpunter -->
+
+        <div class="count">
+            <h1 class="counter">.....</h1>
+            <p class="followers">Followers</p>
+            <input type="text" id="max" placeholder="value">
+            <button class="btn btn-primary" onclick="Run()">Click</button>
+        </div>
+        
+<!-- Date -->
+        
+        <div class="date">
+            <button class="btn btn-primary" type="submit" onclick="date()">Date</button>
+            <p id="date"></p>
+        </div>
+
+
+<!-- Array -->
+
+        <div class="array">
+            <!-- <input type="text" id='add'> -->
+            <input type="text" id="add" placeholder="Elements">
+            <button onclick="addRecord()" class="btn btn-primary">Add</button>
+            <h4 class='outVal' id="enterValue"></h4>
+        </div>
+
+<!-- Sort Array -->
+
+        <div class="sort">
+            <button onclick="sort()" class="btn btn-primary">Sort</button>
+            <h4 id='sort'></h4>
+        </div>
+
+
+        <div class="second">
+            <button onclick="econd()" class="btn btn-primary">Second</button>
+            <h4 id='second'></h4>
+        </div>
+    </div>
+    
+    
+    <script src="script.js">  </script>
+</body>
+</html>
